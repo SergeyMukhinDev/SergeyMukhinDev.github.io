@@ -40,12 +40,15 @@ footer .Links > a {
 .news {
     background-color: white;
     padding: 50px 0 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 article {
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid royalblue;
+    border-radius: 10px;
 }
 article a {
     color: slategray;
@@ -67,11 +70,11 @@ article img {
     height: 300px;
     object-fit: cover;
 }
-article:nth-child(even) {
+article:nth-child(even) { /* псевдокласс */
     background-color: darkslategray;
-    
+    color:wheat;
 }
-article:nth-child(1) h2::before {
+article:nth-child(1) h2::before { /*псевдоэлемент*/
     content: "New ";
 }
 article:nth-child(2) h2::before {
