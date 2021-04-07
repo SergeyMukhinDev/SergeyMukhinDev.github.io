@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-}
+    }
 header {
     display: flex;
     align-items: center;
@@ -69,6 +69,7 @@ article img {
 }
 article:nth-child(even) {
     background-color: darkslategray;
+    
 }
 article:nth-child(1) h2::before {
     content: "New ";
